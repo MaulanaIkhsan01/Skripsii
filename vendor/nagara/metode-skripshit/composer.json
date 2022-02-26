@@ -1,0 +1,31 @@
+{
+    "name": "nagara/metode-skripshit",
+    "description": "libraries metode skripshit build by miyuki nagara as eka jaya nagara, noob programmer wanna be hacker and cyber security",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nagara",
+            "email": "ekabersinar@gmail.com",
+            "role": "programmer"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "phpoffice/phpspreadsheet": "^1.18",
+        "symfony/var-dumper": "^5.3"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "apcu-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "src\\": "src"
+        },
+        "classmap": [
+            "src"
+        ]
+    }
+}
